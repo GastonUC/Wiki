@@ -3,6 +3,7 @@
 {% block title %}
     {{ entryTitle }}
 {% endblock %}
+
 {% block body %}
-    {{ entry }}
+    {{ entry|safe }}
 {% endblock %}
